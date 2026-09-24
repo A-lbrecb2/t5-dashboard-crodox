@@ -6,10 +6,11 @@ import { RouterModule } from '@angular/router';
 import { MatTooltipModule } from '@angular/material/tooltip';
 import { MatButtonModule } from '@angular/material/button';
 import { AppComponent } from './app.component';
-
+import { DashboardComponent } from '../../src/app/dashboard/dashboard.component';
 @NgModule({
   declarations: [
     AppComponent,
+    DashboardComponent,
   ],
   imports: [
     BrowserModule,
